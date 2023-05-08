@@ -18,7 +18,7 @@ function Searchmovie(props) {
   const getMovie = (e) => {
     e.preventDefault();
     axios
-      .get(` http://www.omdbapi.com/?apikey=b6862c13&s=${text}`)
+      .get(` https://www.omdbapi.com/?apikey=b6862c13&s=${text}`)
 
       .then((response) => {
         MovieAction(response.data.Search, dispatch);
