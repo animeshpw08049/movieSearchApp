@@ -1,0 +1,52 @@
+.linkDiv {
+  border: 1px solid red;
+  width: 12%;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.linked {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.navDiv {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.h1tag {
+  margin-bottom: 2%;
+  font-size: 50px;
+}
+
+.spanTag {
+  color: red;
+}
+
+@media (max-width: 1180px) {
+  .linkDiv {
+    border: 1px solid red;
+    width: 25%;
+    margin: auto;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 667px) {
+  .linkDiv {
+    border: 1px solid red;
+    width: 60%;
+    margin: auto;
+    border-radius: 30px;
+  }
+
+  .h1tag {
+    margin-bottom: 2%;
+    font-size: 36px;
+  }
+}
