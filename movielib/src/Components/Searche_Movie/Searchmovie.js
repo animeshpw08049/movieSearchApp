@@ -31,6 +31,7 @@ function Searchmovie(props) {
     const data = movies[index];
     console.log(data);
     addAction(data, dispatch);
+    alert("Movie added Successfully in Movie Library");
   };
 
   return (

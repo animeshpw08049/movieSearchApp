@@ -1,3 +1,6 @@
+.heads{
+  text-decoration: none;
+}
 .linkDiv {
   border: 1px solid red;
   width: 12%;

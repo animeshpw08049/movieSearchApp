@@ -13,7 +13,7 @@ function App() {
     
       
      <Routes>
-     <Route path="/" element={<Searchmovie/> }></Route>
+     <Route path="/home" element={<Searchmovie/> }></Route>
         <Route path="/movielibrary" element={<Movielibrary />} />
       </Routes>
 

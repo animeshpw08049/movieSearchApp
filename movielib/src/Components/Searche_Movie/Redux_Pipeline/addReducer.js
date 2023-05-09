@@ -14,11 +14,12 @@ const addReducers = (state = initialAddData, action) => {
 
     case "REMOVE":
       console.log(action.payload);
-   
+       alert("Movie Removed Successfully From Movie Library")
       state = {
         ...state,
         addMovieData: state.addMovieData.filter(
           (value) => value.imdbID !== action.payload
+          
         ),
       };
 

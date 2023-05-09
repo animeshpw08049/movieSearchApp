@@ -9,7 +9,9 @@ export const removeAction = (data) => {
   return {
     type: "REMOVE",
     payload: data,
+    
   };
+  
 };
 
 
